@@ -1,31 +1,22 @@
-第1周学习报告
-实际日期：2026-10-23（Asia/Shanghai）
-执行者：AI助手；用户复核尚未进行。
-结论：部分通过。资料学习、离线练习与Node环境检查完成；Devnet启动、RPC查询与截图尚未完成。本报告是今天的新工作，不恢复其他归档仓库已撤回的报告。
+第一周：先理清 Cell 和交易
+2026-10-23
 
-学习来源
-https://docs.nervos.org/docs/getting-started/how-ckb-works
-https://docs.nervos.org/docs/getting-started/quick-start
-https://docs.ckbccc.com/en/docs/getting-started/introduction
-均于2026-10-23查阅。手册为用户提供的CKBuilder手册。
+今天先看了 CKB 的基础介绍和快速入门，也浏览了 CCC 的介绍。重点放在 Cell、交易的输入输出，以及 Lock Script 和 Type Script 的区别。
 
-概念笔记与应用
-Cell保存状态；已创建的Cell不能直接改写，更新需要消耗原Cell并创建新Cell。未消耗的Cell称Live Cell。转账需要输入、收款输出和找零输出，输入与输出容量差为手续费。
-Lock Script控制Cell被花费的授权；Type Script可选，用于约束状态转换。存证应用可以把报告摘要置于Cell的数据中，报告修订则创建新记录并保留前版本引用。
-CCC提供TypeScript交易构建、查询和钱包连接能力。官方快速入门使用OffCKB，要求Node.js 20及以上。开发链交易不会出现在公共浏览器中，因此未来证据须明确网络。
+Cell 的更新方式是这次学习的重点：数据不是直接在原来的 Cell 上修改，而是消耗旧 Cell，再创建新 Cell。Lock Script 管谁能花费，Type Script 则约束数据或资产的变化规则。后面做数据存储练习时，还要把这套过程实际跑一遍。
 
-当周练习
-exercises/week-01/capacity.mjs：用BigInt表达整数容量，检查200 CKB输入分为100 CKB收款、99.999 CKB找零及0.001 CKB手续费。4项检查覆盖正确计算、超额输出拒绝、负数拒绝、多输入求和。
-这是容量算术练习，未实现完整交易验证器，不校验签名、最小Cell容量、序列化或脚本，也未广播交易。
-运行方法：Node.js 20+执行 node exercises/week-01/capacity.mjs。
-实际Node版本：v24.19.0；实际运行退出码0，4项检查通过，见evidence/week-01/run.json。
+练习从转账的容量计算开始。200 CKB 的输入，给收款方 100 CKB，找零 99.999 CKB，剩下 0.001 CKB 作为手续费。代码用 BigInt 计算，避免小数精度问题。另外检查了输出超过输入、负数输入和多个输入求和，4项检查都通过了。
 
-反思与验证边界
-本次没有独立前测，不能声称已测量知识增长；这次练习作为后续回忆与迁移题的基线。下周先解释为什么修改状态必须消耗旧Cell，再对照资料纠错。
-输入输出差额检查只是交易有效性的必要条件之一，通过它不能证明交易可上链。
-今天未实际运行4–5小时，不虚构手册建议的人类学习时长。GitHub发布不代表课程组织者验收。
+代码：exercises/week-01/capacity.mjs
+运行：node exercises/week-01/capacity.mjs
+环境：Node.js v24.19.0
+运行记录：evidence/week-01/run.json
 
-未完成与下一步
-Devnet尚未安装启动或进行RPC验证，不能把Node版本检查计作开发链环境验收。下一次优先完成此缺口，再执行第2周真实转账，并保留链查询、交易哈希及截图。
-毕业项目暂定CKB学习成果存证工具，今天仅确定范围，尚未实现应用。
+目前完成的是离线计算，开发链还没启动，也没有发送交易。下一次先把 OffCKB 和 RPC 跑通，再做一次带找零的转账，查看交易确认后的输入输出，补上截图和交易记录。
 
+项目方向先记下一个想法：把文件摘要存进 Cell，之后读取出来核对文件有没有变化。先完成基础练习，再决定具体怎么做。
+
+这次看的资料：
+- CKB 基础：https://docs.nervos.org/docs/getting-started/how-ckb-works
+- 快速入门：https://docs.nervos.org/docs/getting-started/quick-start
+- CCC 介绍：https://docs.ckbccc.com/en/docs/getting-started/introduction
