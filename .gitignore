@@ -1,0 +1,11 @@
+# Local planning and state
+/PLAN.txt
+/progress.json
+
+# Development files
+node_modules/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

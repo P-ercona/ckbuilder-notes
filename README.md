@@ -2,7 +2,7 @@
 
 CKB学习笔记、练习代码和开发日志。
 
-- [第1周：Cell与交易容量](weekly-reports/week-01.txt)
+- [第1周：Cell与交易容量](weekly-reports/week-01.md)
 - [容量计算练习](exercises/week-01/capacity.mjs)
 - [运行记录](evidence/week-01/run.json)
 
