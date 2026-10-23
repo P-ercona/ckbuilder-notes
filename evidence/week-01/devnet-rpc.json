@@ -1,0 +1,195 @@
+{
+  "recorded_at": "2026-10-23T13:56:11.166Z",
+  "endpoint": "http://127.0.0.1:28114",
+  "network": "ckb_dev",
+  "runtime_version": "v24.19.0",
+  "command": "node exercises/week-01/rpc-check.mjs http://127.0.0.1:28114 evidence/week-01/devnet-rpc.json",
+  "summary": {
+    "first_height": "20",
+    "second_height": "21",
+    "second_block_hash": "0xc1c4591cd196786fb9ae3512dfa061d3a5c47b96e2534a430e43998db71730ba",
+    "genesis_hash": "0xb15fa8a50781f3a8bf84759682e2ce4027b7ae5361df45e8b68855ee413104be",
+    "checks": {
+      "chain_is_devnet": true,
+      "blocks_advance": true,
+      "header_lookup_matches": true,
+      "genesis_query": true
+    }
+  },
+  "calls": [
+    {
+      "observed_at": "2026-10-23T13:56:08.112Z",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "get_blockchain_info",
+        "params": []
+      },
+      "response": {
+        "jsonrpc": "2.0",
+        "result": {
+          "alerts": [],
+          "chain": "ckb_dev",
+          "difficulty": "0x100",
+          "epoch": "0x3e80014000000",
+          "is_initial_block_download": false,
+          "median_time": "0x1a1690b4ae2"
+        },
+        "id": 1
+      }
+    },
+    {
+      "observed_at": "2026-10-23T13:56:08.117Z",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "method": "get_tip_header",
+        "params": []
+      },
+      "response": {
+        "jsonrpc": "2.0",
+        "result": {
+          "compact_target": "0x20010000",
+          "dao": "0x54c0e72fe5a1d30ce10b4b87f58623002e7e922790000000000ce1761170ff06",
+          "epoch": "0x3e80014000000",
+          "extra_hash": "0xf32ba93c4e7984d9eb268855bac7ab97ea8e840fb5f0807dc24e020e97d2ba00",
+          "hash": "0xd2d978955a699c43e5bc63349fa50ea9df3cf6e7bf6c18ef48cd20f661d06918",
+          "nonce": "0xe8cb0b04979f0b3f4eef04af54cdb42c",
+          "number": "0x14",
+          "parent_hash": "0xf1514e6e2f779569909f7cbf2a85b3264beb09c849416f117afba7b4efa5189a",
+          "proposals_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "timestamp": "0x1a1690c0e62",
+          "transactions_root": "0x08a3e84d6ff5637654be7c4a74a9a784e4611de583f7e37c29ae995be714cb50",
+          "version": "0x0"
+        },
+        "id": 2
+      }
+    },
+    {
+      "observed_at": "2026-10-23T13:56:09.136Z",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 3,
+        "method": "get_tip_header",
+        "params": []
+      },
+      "response": {
+        "jsonrpc": "2.0",
+        "result": {
+          "compact_target": "0x20010000",
+          "dao": "0x54c0e72fe5a1d30ce10b4b87f58623002e7e922790000000000ce1761170ff06",
+          "epoch": "0x3e80014000000",
+          "extra_hash": "0xf32ba93c4e7984d9eb268855bac7ab97ea8e840fb5f0807dc24e020e97d2ba00",
+          "hash": "0xd2d978955a699c43e5bc63349fa50ea9df3cf6e7bf6c18ef48cd20f661d06918",
+          "nonce": "0xe8cb0b04979f0b3f4eef04af54cdb42c",
+          "number": "0x14",
+          "parent_hash": "0xf1514e6e2f779569909f7cbf2a85b3264beb09c849416f117afba7b4efa5189a",
+          "proposals_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "timestamp": "0x1a1690c0e62",
+          "transactions_root": "0x08a3e84d6ff5637654be7c4a74a9a784e4611de583f7e37c29ae995be714cb50",
+          "version": "0x0"
+        },
+        "id": 3
+      }
+    },
+    {
+      "observed_at": "2026-10-23T13:56:10.154Z",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 4,
+        "method": "get_tip_header",
+        "params": []
+      },
+      "response": {
+        "jsonrpc": "2.0",
+        "result": {
+          "compact_target": "0x20010000",
+          "dao": "0x54c0e72fe5a1d30ce10b4b87f58623002e7e922790000000000ce1761170ff06",
+          "epoch": "0x3e80014000000",
+          "extra_hash": "0xf32ba93c4e7984d9eb268855bac7ab97ea8e840fb5f0807dc24e020e97d2ba00",
+          "hash": "0xd2d978955a699c43e5bc63349fa50ea9df3cf6e7bf6c18ef48cd20f661d06918",
+          "nonce": "0xe8cb0b04979f0b3f4eef04af54cdb42c",
+          "number": "0x14",
+          "parent_hash": "0xf1514e6e2f779569909f7cbf2a85b3264beb09c849416f117afba7b4efa5189a",
+          "proposals_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "timestamp": "0x1a1690c0e62",
+          "transactions_root": "0x08a3e84d6ff5637654be7c4a74a9a784e4611de583f7e37c29ae995be714cb50",
+          "version": "0x0"
+        },
+        "id": 4
+      }
+    },
+    {
+      "observed_at": "2026-10-23T13:56:11.161Z",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 5,
+        "method": "get_tip_header",
+        "params": []
+      },
+      "response": {
+        "jsonrpc": "2.0",
+        "result": {
+          "compact_target": "0x20010000",
+          "dao": "0x58a7dc2020a2d30c06badeaef58623000f27dca59600000000a977e21270ff06",
+          "epoch": "0x3e80015000000",
+          "extra_hash": "0xafedf13f4f55c6e8210931a39d07c943ecea0a5d6587ebe6e977909f5766b1f8",
+          "hash": "0xc1c4591cd196786fb9ae3512dfa061d3a5c47b96e2534a430e43998db71730ba",
+          "nonce": "0x9146358c279568509543754321854f1",
+          "number": "0x15",
+          "parent_hash": "0xd2d978955a699c43e5bc63349fa50ea9df3cf6e7bf6c18ef48cd20f661d06918",
+          "proposals_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "timestamp": "0x1a1690c21eb",
+          "transactions_root": "0x7a189cd6f4ceb9a5d76a831de53cf64e116394f8abb07ff3dedaed8f9df1e13f",
+          "version": "0x0"
+        },
+        "id": 5
+      }
+    },
+    {
+      "observed_at": "2026-10-23T13:56:11.163Z",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 6,
+        "method": "get_header",
+        "params": [
+          "0xd2d978955a699c43e5bc63349fa50ea9df3cf6e7bf6c18ef48cd20f661d06918"
+        ]
+      },
+      "response": {
+        "jsonrpc": "2.0",
+        "result": {
+          "compact_target": "0x20010000",
+          "dao": "0x54c0e72fe5a1d30ce10b4b87f58623002e7e922790000000000ce1761170ff06",
+          "epoch": "0x3e80014000000",
+          "extra_hash": "0xf32ba93c4e7984d9eb268855bac7ab97ea8e840fb5f0807dc24e020e97d2ba00",
+          "hash": "0xd2d978955a699c43e5bc63349fa50ea9df3cf6e7bf6c18ef48cd20f661d06918",
+          "nonce": "0xe8cb0b04979f0b3f4eef04af54cdb42c",
+          "number": "0x14",
+          "parent_hash": "0xf1514e6e2f779569909f7cbf2a85b3264beb09c849416f117afba7b4efa5189a",
+          "proposals_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "timestamp": "0x1a1690c0e62",
+          "transactions_root": "0x08a3e84d6ff5637654be7c4a74a9a784e4611de583f7e37c29ae995be714cb50",
+          "version": "0x0"
+        },
+        "id": 6
+      }
+    },
+    {
+      "observed_at": "2026-10-23T13:56:11.166Z",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 7,
+        "method": "get_block_hash",
+        "params": [
+          "0x0"
+        ]
+      },
+      "response": {
+        "jsonrpc": "2.0",
+        "result": "0xb15fa8a50781f3a8bf84759682e2ce4027b7ae5361df45e8b68855ee413104be",
+        "id": 7
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+First RPC check attempt
+Wait between the two tip-header queries: 3500 ms
+Exit code: 1
+stderr:
+Block height did not advance
+
+The generated ckb-miner.toml uses a Constant delay of 5000 ms.
+The check was changed to poll every second for up to 15 seconds.

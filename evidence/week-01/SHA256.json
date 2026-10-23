@@ -1,8 +1,21 @@
 {
-  "README.md": "f6ecf292a966e66c2e96bb2e506eacd38bcf57f0a88347af61a226e06d8e11f7",
-  "weekly-reports/week-01.md": "74c772e2bde7c6647add4553265ff00b219eb82a4df339d59d112f91d8fb4433",
-  "exercises/week-01/capacity.mjs": "59988c1100fb0d536a35a32a0171235fe58a57a365e13160a442e53042420327",
-  "evidence/week-01/run.json": "74b3c39e3ee0e7551761af303a2d5d1ce2d52a486c226983b778591a2748517d",
   ".gitattributes": "23302dd90b8bb74b44d365fafef8df20f809b61cb347023951ecf60a88a29651",
-  ".gitignore": "ad004c688939c52b231ac232356b6f482a8c1afee15a9382eba7270e4a2623ea"
+  ".gitignore": "85fb0db49d5f3a3158b82167770ab04b6823af504606a4068194d74e8080a3cf",
+  "README.md": "54ad0248d661fc32a8d68a613dbf81d48de47f47a07abd7de338a739a8d0b6bb",
+  "weekly-reports/week-01.md": "78eca74358acf4667ed832e37b5b08aa401ccafeced0901870fa9ca327c8df10",
+  "exercises/week-01/README.md": "1e897c7e97502904f7646a1fe58f5c713ff10ba1d02e1d565622eed28e40b776",
+  "exercises/week-01/capacity.mjs": "59988c1100fb0d536a35a32a0171235fe58a57a365e13160a442e53042420327",
+  "exercises/week-01/offckb.mjs": "c9843b28662663492b0a4062cbe9968c273317baf23b8f3d070ce45c2283095e",
+  "exercises/week-01/rpc-check.mjs": "c572f15ff5674c3b49d629894d1502b24829cc0455a2dbdb96e62179054493ef",
+  "exercises/week-01/view-rpc.mjs": "51e88f1d8888410e2a83162530873de9dcb9197258529a9c09a3cc9145cd6c8b",
+  "exercises/week-01/stop-devnet.ps1": "743129735150290371f7a00409adba31aee67a82a11364386e2c81992a43c379",
+  "evidence/week-01/run.json": "8659492c6995788a18b23b01acc5741c0a6b3758a4f98bbf7e4791246fc5744f",
+  "evidence/week-01/rpc-first-attempt.txt": "913617fee66dbd9c7b3c47255ed7a0a043aba43fd81e1542b7a6056628f78e09",
+  "evidence/week-01/devnet-rpc.json": "4b9d8d2d7a28d2747d6e6e69b9de52319ecd03ecd308a5575fe1884965c86e16",
+  "evidence/week-01/direct-rpc.json": "cf488280494e985b6fc83b927e14740699eecf746b47d4c57fc7fdf46ce8393f",
+  "evidence/week-01/resume-rpc.json": "8be976277815cdcb9e790efbcf3b672df9593c707cc9cf6affae90b6b0487459",
+  "evidence/week-01/devnet-environment.json": "473c6058556dd552749ec0449ab00ad87698213041c9879f5e43429d63f0a530",
+  "evidence/week-01/devnet-startup.log": "603e08842083a192e18fd155f6f91adb9ced3afee160efa7b3c15035897b7850",
+  "evidence/week-01/restart-check.json": "069910f4d68524ab90f2ada2c09dcb9ffba9402cb51661188202bfb1867dbf61",
+  "evidence/week-01/devnet-rpc.png": "9f82e773288874a0593ebe4342cf6f21616a6341eb7594f5cd18b01dbabba883"
 }

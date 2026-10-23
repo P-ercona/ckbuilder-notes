@@ -1,0 +1,7 @@
+Using custom CKB binary path: E:\AI\ckb-tools\extracted\ckb_v0.210.0_x86_64-pc-windows-msvc\ckb.exe
+Launching CKB devnet Node...
+CKB devnet is ready at http://127.0.0.1:8114.
+Follow the full node log with: offckb logs -f
+CKB devnet RPC Proxy server running on http://127.0.0.1:28114
+(node:17332) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)

@@ -1,0 +1,39 @@
+{
+  "recorded_at": "2026-10-23T14:00:27.302081+00:00",
+  "platform": "Windows x64",
+  "versions": {
+    "node": {
+      "version": "v24.19.0",
+      "exit_code": 0
+    },
+    "offckb": {
+      "version": "0.4.13",
+      "exit_code": 0
+    },
+    "ckb": {
+      "version": "ckb 0.210.0 (2592ddf 2026-09-17)",
+      "exit_code": 0
+    }
+  },
+  "rpc": "http://127.0.0.1:8114",
+  "rpc_proxy": "http://127.0.0.1:28114",
+  "miner_workers": [
+    {
+      "worker_type": "Dummy",
+      "delay_type": "Constant",
+      "value": 5000
+    }
+  ],
+  "ckb_download": {
+    "source": "https://github.com/nervosnetwork/ckb/releases/download/v0.210.0/ckb_v0.210.0_x86_64-pc-windows-msvc.zip",
+    "archive_sha256": "a4f7300e5ed1753ab38fc9a9c234a3134589dc18ea66716acdd2b1d0474c7b83"
+  },
+  "offckb_package": "@offckb/cli@0.4.13",
+  "runtime_storage": ".local/offckb (not committed)",
+  "processes_stopped_after_verification": true,
+  "ports_released": {
+    "8114": true,
+    "28114": true,
+    "18914": true
+  }
+}

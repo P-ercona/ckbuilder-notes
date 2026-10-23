@@ -1,0 +1,28 @@
+{
+  "commands": [
+    {
+      "command": "node exercises/week-01/offckb.mjs <offckb-cli> node --binary-path <ckb.exe> --daemon",
+      "chunk_id": "720187",
+      "wall_time_seconds": 4.0518539,
+      "exit_code": 0,
+      "original_token_count": 82,
+      "output": "CKB devnet daemon started with PID 7056 and passed its RPC/proxy health check.\r\nLogs: E:\\AI\\ckbuilder-12-week-lab\\.local\\offckb\\local\\offckb-nodejs\\Data\\devnet\\data\\logs\\daemon.log\r\nPID file: E:\\AI\\ckbuilder-12-week-lab\\.local\\offckb\\local\\offckb-nodejs\\Data\\devnet\\data\\logs\\daemon.pid\r\nStop the daemon with: offckb node stop\r\n"
+    },
+    {
+      "command": "node exercises/week-01/rpc-check.mjs http://127.0.0.1:28114 evidence/week-01/resume-rpc.json",
+      "chunk_id": "85cd4e",
+      "wall_time_seconds": 5.2997516000000005,
+      "exit_code": 0,
+      "original_token_count": 71,
+      "output": "Devnet: ckb_dev\nRPC: http://127.0.0.1:28114\nBlock height: 106 -> 107\nTip hash: 0xbe41f8b630530adba6e4f8a74a48db551c9d1f1d40c84dcff4b2b9f2a12fab1c\nPASS: chain identity, block growth, header lookup, genesis query\nSaved 9 RPC request/response pairs to evidence/week-01/resume-rpc.json\n"
+    },
+    {
+      "command": "./exercises/week-01/stop-devnet.ps1",
+      "chunk_id": "2e09ba",
+      "wall_time_seconds": 1.14989,
+      "exit_code": 0,
+      "original_token_count": 123,
+      "output": "SUCCESS: The process with PID 1504 (child process of PID 28452) has been terminated.\r\nSUCCESS: The process with PID 22276 (child process of PID 15380) has been terminated.\r\nSUCCESS: The process with PID 28452 (child process of PID 7056) has been terminated.\r\nSUCCESS: The process with PID 15380 (child process of PID 7056) has been terminated.\r\nSUCCESS: The process with PID 7056 (child process of PID 36716) has been terminated.\r\nStopped the verified exercise Devnet. Chain data was kept.\r\n"
+    }
+  ]
+}
