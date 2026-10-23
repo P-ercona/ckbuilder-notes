@@ -1,0 +1,121 @@
+{
+  "timezone": "Asia/Shanghai",
+  "time": "20:00",
+  "start_date": "2026-10-23",
+  "end_date": "2027-01-08",
+  "github_repository": "P-ercona/ckbuilder-12-week-lab",
+  "submitted_weeks": 1,
+  "accepted_weeks": 0,
+  "weeks": [
+    {
+      "week": 1,
+      "scheduled_date": "2026-10-23",
+      "topic": "基础概念与环境",
+      "task": "Cell、交易、Lock/Type Script、CCC/OffCKB；容量计算练习；检查运行环境",
+      "required_evidence": "概念笔记、运行日志、交易容量计算；Devnet启动与RPC查询",
+      "status": "partial",
+      "report": "weekly-reports/week-01.txt"
+    },
+    {
+      "week": 2,
+      "scheduled_date": "2026-10-30",
+      "topic": "转移 CKB",
+      "task": "选择输入、收款输出、找零、手续费与确认",
+      "required_evidence": "可复现转账代码、交易哈希、链查询与截图",
+      "status": "pending",
+      "report": null
+    },
+    {
+      "week": 3,
+      "scheduled_date": "2026-11-06",
+      "topic": "Cell 数据存储",
+      "task": "写入并读取数据，理解最小容量与数据编码",
+      "required_evidence": "写读一致验证、容量计算、消耗旧Cell生成新Cell的记录",
+      "status": "pending",
+      "report": null
+    },
+    {
+      "week": 4,
+      "scheduled_date": "2026-11-13",
+      "topic": "代币",
+      "task": "学习 sUDT/xUDT 并执行发行与转移",
+      "required_evidence": "数量守恒、正常交易及失败案例",
+      "status": "pending",
+      "report": null
+    },
+    {
+      "week": 5,
+      "scheduled_date": "2026-11-20",
+      "topic": "DOB 与 Spore",
+      "task": "创建数字对象并读取其内容与所有权",
+      "required_evidence": "源码、对象标识、查询结果与截图",
+      "status": "pending",
+      "report": null
+    },
+    {
+      "week": 6,
+      "scheduled_date": "2026-11-27",
+      "topic": "简单锁",
+      "task": "理解验证模型，编写并调试简单锁",
+      "required_evidence": "授权通过、未授权拒绝的可复现测试",
+      "status": "pending",
+      "report": null
+    },
+    {
+      "week": 7,
+      "scheduled_date": "2026-12-04",
+      "topic": "CCC 整合",
+      "task": "钱包连接、查询、交易构建及状态处理",
+      "required_evidence": "可运行样例、取消签名与余额不足处理",
+      "status": "pending",
+      "report": null
+    },
+    {
+      "week": 8,
+      "scheduled_date": "2026-12-11",
+      "topic": "脚本与序列化",
+      "task": "学习 Rust/JS 脚本、Molecule、Type ID",
+      "required_evidence": "脚本测试、序列化往返和前期错误复测",
+      "status": "pending",
+      "report": null
+    },
+    {
+      "week": 9,
+      "scheduled_date": "2026-12-18",
+      "topic": "支付通道与项目设计",
+      "task": "了解 Fiber/Perun；概览 DAO、SSRI、RGB++、iCKB；确定存证数据结构",
+      "required_evidence": "带来源比较、项目数据模型与验收用例",
+      "status": "pending",
+      "report": null
+    },
+    {
+      "week": 10,
+      "scheduled_date": "2026-12-25",
+      "topic": "存证项目原型",
+      "task": "报告SHA256、Cell存证、查询与本地文件校验",
+      "required_evidence": "创建→确认→读取→校验的可运行流程",
+      "status": "pending",
+      "report": null
+    },
+    {
+      "week": 11,
+      "scheduled_date": "2027-01-01",
+      "topic": "项目完善",
+      "task": "索引、错误处理、版本追踪和回归",
+      "required_evidence": "篡改文件、重复提交、RPC失败等测试证据",
+      "status": "pending",
+      "report": null
+    },
+    {
+      "week": 12,
+      "scheduled_date": "2027-01-08",
+      "topic": "最终交付",
+      "task": "复测知识并交付存证工具与12周资料索引",
+      "required_evidence": "源码、运行指南、演示、验收结果及遗留问题",
+      "status": "pending",
+      "report": null
+    }
+  ],
+  "project": "CKB学习成果存证工具",
+  "publication": "prepared"
+}

@@ -1,0 +1,8 @@
+{
+  "recorded_at_utc": "2026-10-23T12:56:58.720664+00:00",
+  "command": "node exercises/week-01/capacity.mjs",
+  "node_version": "v24.19.0",
+  "exit_code": 0,
+  "stdout": "PASS 4 checks: change/fee, overspend, negative input, multiple inputs\nExample: 200 CKB input = 100 CKB recipient + 99.999 CKB change + 0.001 CKB fee\nOffline arithmetic only; no chain validation or transfer performed.\n",
+  "stderr": ""
+}
