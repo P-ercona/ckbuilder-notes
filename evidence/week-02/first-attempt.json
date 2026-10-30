@@ -1,0 +1,5 @@
+{
+  "exit_code": 1,
+  "error": "--privkey, --privkey-file, or OFFCKB_PRIVATE_KEY is required!",
+  "resolution": "Read the bundled Devnet account key into memory and pass it to the child process through OFFCKB_PRIVATE_KEY. No keys are saved in this repository."
+}

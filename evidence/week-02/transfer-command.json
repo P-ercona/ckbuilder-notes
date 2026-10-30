@@ -1,0 +1,14 @@
+{
+  "exit_code": 0,
+  "events": [
+    {
+      "ok": true,
+      "command": "transfer",
+      "network": "devnet",
+      "amount": "100",
+      "toAddress": "ckt1qzda0cr08m85hc8jlnfp3zer7xulejywt49kt2rr0vthywaa50xwsqt435c3epyrupszm7khk6weq5lrlyt52lg48ucew",
+      "txHash": "0x7331bf4e510c8b0f11a7b0c4508138e81cf576f014056ad512868a884386cca4"
+    }
+  ],
+  "stderr": "{\"level\":\"info\",\"message\":\"Successfully transfer, txHash: 0x7331bf4e510c8b0f11a7b0c4508138e81cf576f014056ad512868a884386cca4\",\"timestamp\":\"2026-10-30T20:01:13.276Z\"}\r\n"
+}
